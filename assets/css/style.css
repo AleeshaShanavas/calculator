@@ -1,0 +1,122 @@
+body {
+  margin: auto;
+  height: 100vh;
+  background-color: #f8f1f1;
+}
+
+body .outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .outer .inner {
+  margin-top: 2%;
+}
+
+body .outer .inner .relt #result {
+  height: 10vh;
+  width: 50vh;
+  text-align: right;
+  margin-left: 20%;
+  background-color: #f8f1f1;
+  border-style: none;
+}
+
+body .outer .inner .calout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+body .outer .inner .calout .cal1 {
+  float: left;
+  display: block;
+}
+
+body .outer .inner .calout .cal1 .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .outer .inner .calout .cal1 .section1 button {
+  height: 10vh;
+  width: 20vh;
+  border-style: none;
+  margin-top: 10%;
+  margin-right: 1%;
+  opacity: .6;
+}
+
+body .outer .inner .calout .cal1 .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .outer .inner .calout .cal1 .section2 button {
+  height: 10vh;
+  border-style: none;
+  width: 20vh;
+  opacity: .6;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+
+body .outer .inner .calout .cal1 .section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .outer .inner .calout .cal1 .section3 button {
+  height: 10vh;
+  width: 20vh;
+  margin-top: 5%;
+  border-style: none;
+  margin-right: 1%;
+  opacity: .6;
+}
+
+body .outer .inner .calout .cal1 .section4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .outer .inner .calout .cal1 .section4 button {
+  height: 10vh;
+  width: 20vh;
+  margin-top: 5%;
+  margin-right: 1%;
+  opacity: .6;
+  border-style: none;
+}
+
+body .outer .inner .calout .cal2 {
+  float: right;
+  margin-right: 30%;
+  display: block;
+}
+
+body .outer .inner .calout .cal2 .section5 {
+  display: block;
+  margin-top: 20%;
+}
+
+body .outer .inner .calout .cal2 .section5 button {
+  height: 10vh;
+  width: 20vh;
+  opacity: .6;
+  border-style: none;
+  margin-bottom: 10%;
+  margin-left: 1%;
+}
+/*# sourceMappingURL=style.css.map */
